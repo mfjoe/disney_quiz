@@ -9,6 +9,25 @@ let score = 0;
 let questionCounter = 0;
 let availableQuesions = [];
 
+
+// getRandomCharacter().then(data => exampleFunctionCalledAfterAsyncReturns(data));
+
+// async function getRandomCharacter() {
+
+// id = Math.floor(Math.random() * 7400);;
+// request = 'https://api.disneyapi.dev/characters/' + id;
+// let response = await fetch(request);
+// let data = await response.json()
+// return data;
+// }
+
+// function exampleFunctionCalledAfterAsyncReturns(data) {
+// console.log(data.imageUrl)
+// console.log(data.name)
+// console.log(data)
+// }
+
+
 let questions = [
   {
     question: `<img src="https://static.wikia.nocookie.net/disney/images/4/4a/Treasureplanet069.jpg" alt="">`,
